@@ -1,6 +1,6 @@
 # Pong
 
-Pong is a cli application that can run user defined commands in many user defined paths. 
+Pong is a cli application that can run user-defined commands in many user-defined locations.
 Pong can run commands in parallel if you wish.
 
 ## Install
