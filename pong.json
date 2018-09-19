@@ -1,0 +1,35 @@
+{
+    "paths": {
+        "solutionPaths": [
+            "framework",
+            "modules/users",
+            "modules/background-jobs"
+        ],
+        "testProjectPaths": [
+            "framework/test/Authentication.OAuth.Tests",
+            "framework/test/MultiTenancy.Tests",
+            "framework/test/Mvc.Tests"
+        ]
+    },
+    "commands": {
+        "build": {
+            "description":"Builds a project and all of its dependencies.",
+            "workers": 1,
+            "onerror": "exit",
+            "name": "dotnet",
+            "args": [
+                "build"
+            ]
+        },
+        "test": {
+            "description":".NET test driver used to execute unit tests.",
+            "workers": 3,
+            "onerror": "continue",
+            "name": "dotnet",
+            "args": [
+                "test",
+                "--logger:trx"
+            ]
+        }
+    }
+}
