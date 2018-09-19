@@ -63,7 +63,7 @@ $ dotnet test --logger:trx
 
 `Commands` must be in this form:
 
-```json
+```
 {
   "CommandName": {
     "description": Short description for this command.,
