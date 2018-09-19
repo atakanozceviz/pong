@@ -3,6 +3,12 @@
 Pong is a cli application that can run user defined commands in many user defined paths. 
 Pong can run commands in parallel if you wish.
 
+## Install
+
+```
+go get github.com/atakanozceviz/pong
+```
+
 ## Getting Started
 
 You will need to define your list of paths and commands in a json file.
