@@ -14,7 +14,7 @@
 
 package main
 
-import "pong/cmd"
+import "github.com/atakanozceviz/pong/cmd"
 
 func main() {
 	cmd.Execute()

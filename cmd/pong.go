@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"flag"
-	"pong/cmd/pong"
 
+	"github.com/atakanozceviz/pong/cmd/pong"
 	"github.com/spf13/cobra"
 )
 
