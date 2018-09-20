@@ -60,7 +60,7 @@ func init() {
 	// when this action is called directly.
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 
-	rootCmd.PersistentFlags().StringVarP(&settingsPath, "settings", "s", "pong.json", "Path to settings file.")
+	rootCmd.PersistentFlags().StringVarP(&settingsPath, "s", "s", "pong.json", "Path to settings file.")
 
 }
 
