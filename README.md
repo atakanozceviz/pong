@@ -96,8 +96,7 @@ Available Commands:
 {
   "NameOfYourPathArray": [
     "a/valid/path",
-    "/another/valid/path",
-    "and/one/valid/file.txt"
+    "/another/valid/path"
   ]
 }
 ```
